@@ -46,7 +46,7 @@ namespace Stripe.Infrastructure
                 { "lang", ".net" },
                 { "publisher", "Jayme Davis" },
                 { "lang_version", WebUtility.HtmlEncode(langVersion) },
-                { "uname", WebUtility.HtmlEncode(getSystemInformation()) }
+                //{ "uname", WebUtility.HtmlEncode(getSystemInformation()) }
             };
 
             return JsonConvert.SerializeObject(values, Formatting.None);
